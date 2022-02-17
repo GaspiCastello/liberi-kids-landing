@@ -1,7 +1,6 @@
 import styles from "./Footer.module.css";
 import "bulma/css/bulma.min.css";
-import { FaWhatsapp,FaInstagram } from 'react-icons/fa';
-
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 function Footer(props) {
   return (
@@ -22,7 +21,7 @@ function Footer(props) {
               target="_blank"
               href="https://www.instagram.com/liberikids_/"
             >
-            <FaInstagram />
+              <FaInstagram />
             </a>
             <a
               className="button is-primary is-rounded is-medium"
